@@ -1,0 +1,81 @@
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+span{
+    color: #fe2e9a;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #fe2e9a;
+  border-radius: 0.6em;
+  color: #fe2e9a;
+  cursor: pointer;
+/*  display: flex;
+  display: grid;*/
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  /* margin-top: 100px; */
+}
+.btn:hover, .btn:focus {
+  outline: 0;
+  background-color: #fe2e9a;
+  color: white;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #fe2e9a inset;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+*{
+    font-family: 'Fugaz One', cursive;
+}
+
+.description{
+    font-size: 1.5rem;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+}
